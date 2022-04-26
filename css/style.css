@@ -1,17 +1,21 @@
 * {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
+
 body {
     font-family: 'Poppins';
     font-weight: 300;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 .container {
@@ -22,23 +26,33 @@ table {
 h1 {
     font-size: 36px;
 }
+
 h2 {
     font-size: 32px;
 }
+
 h3 {
     font-size: 28px;
 }
+
 h4 {
     font-size: 24px;
 }
+
 h5 {
     font-size: 20px;
 }
+
 h6 {
     font-size: 16px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Libre Bodoni', serif;
     font-weight: 700;
 }
@@ -63,6 +77,10 @@ button {
     margin-bottom: 10px;
 }
 
+.mt-10 {
+    margin-top: 10px;
+}
+
 .mb-50 {
     margin-bottom: 50px;
 }
@@ -81,21 +99,25 @@ button {
         max-width: 540px;
     }
 }
+
 @media (min-width: 768px) {
     .container {
         max-width: 720px;
     }
 }
+
 @media (min-width: 992px) {
     .container {
         max-width: 960px;
     }
 }
+
 @media (min-width: 1200px) {
     .container {
         max-width: 1140px;
     }
 }
+
 @media (min-width: 1400px) {
     .container {
         max-width: 1320px;
@@ -151,7 +173,7 @@ button {
     flex: 0 0 auto;
     width: 75%;
 }
-  
+
 .col-10 {
     flex: 0 0 auto;
     width: 83.33333333%;
@@ -174,9 +196,11 @@ button {
     justify-content: space-between;
     align-items: center;
 }
+
 .main-header {
     margin-top: 20px;
 }
+
 .main-header .menu ul {
     display: inline-flex;
 }
@@ -185,9 +209,11 @@ button {
     margin-left: 40px;
     text-transform: uppercase;
 }
+
 .responsive-menu-container {
     display: none;
 }
+
 /* End Header */
 
 /* Jumbotron Section */
@@ -203,32 +229,72 @@ button {
     font-weight: 500;
     line-height: 1.5;
 }
+
 /* Jumbtron Section */
 
 /* Third Section */
 .third-section {
     background-color: #fccbac;
 }
+
 .third-section .row {
     align-items: center;
 }
+
 .third-section .description-text {
     width: 500px;
     padding-left: 100px;
 }
+
 .third-section button {
     margin-top: 20px;
 }
+
 /* End Third Section */
 
 /* Fourth Section */
 .fifth-section {
     background-color: #f7e394;
 }
+
 .fifth-section .row {
     flex-direction: row-reverse;
 }
+
 /* End Fourth Section */
+
+/* Sixth Section */
+.sixth-section img {
+    padding-left: 50%;
+}
+
+/*End  Sixth Section */
+
+/* Seventh Section */
+.seventh-section {
+    background-color: #f1b884;
+    text-align: center;
+}
+
+.seventh-section h2 {
+
+    padding-top: 70px;
+}
+
+.seventh-section button {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+/*End Seventh Section */
+
+/* Eight Section */
+.eight-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/*End  Eight Section */
 
 /* Start of responsive */
 @media only screen and (max-width: 1024px) {
@@ -249,6 +315,7 @@ button {
         top: 15%;
         width: 100%;
         background-color: #ccc;
+
         text-align: center;
     }
 
@@ -272,7 +339,22 @@ button {
 
     .fifth-section .row {
         flex-direction: column;
-      }
+    }
+
+
+    .sixth-section img {
+
+        padding-left: 0px;
+    }
+
+
+    .eight-section {
+      padding: 30px;
+        
+    }
+
+    
 
 }
+
 /* End of responsive */
